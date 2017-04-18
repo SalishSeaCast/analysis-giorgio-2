@@ -6,27 +6,27 @@ Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
 ## 
-* ##[./2016plots_365d.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio/raw/tip/notebooks/./2016plots_365d.ipynb)  
+* ##[./2016plots_365d.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/gsgarbi/analysis-giorgio-2/raw/tip/notebooks/./2016plots_365d.ipynb)  
     
-* ##[./2016plots_5d_season.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio/raw/tip/notebooks/./2016plots_5d_season.ipynb)  
+* ##[./2016plots_5d_season.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/gsgarbi/analysis-giorgio-2/raw/tip/notebooks/./2016plots_5d_season.ipynb)  
     
-* ##[./2016plots_100d_perdepth.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio/raw/tip/notebooks/./2016plots_100d_perdepth.ipynb)  
+* ##[./2016plots_100d_perdepth.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/gsgarbi/analysis-giorgio-2/raw/tip/notebooks/./2016plots_100d_perdepth.ipynb)  
     
-* ##[./2016plots_365d_perdepth.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio/raw/tip/notebooks/./2016plots_365d_perdepth.ipynb)  
+* ##[./2016plots_365d_perdepth.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/gsgarbi/analysis-giorgio-2/raw/tip/notebooks/./2016plots_365d_perdepth.ipynb)  
     
-* ##[./2016plots_5d_perdepth.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio/raw/tip/notebooks/./2016plots_5d_perdepth.ipynb)  
+* ##[./2016plots_5d_perdepth.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/gsgarbi/analysis-giorgio-2/raw/tip/notebooks/./2016plots_5d_perdepth.ipynb)  
     
-* ##[./2016plots_50d_season.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio/raw/tip/notebooks/./2016plots_50d_season.ipynb)  
+* ##[./2016plots_50d_season.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/gsgarbi/analysis-giorgio-2/raw/tip/notebooks/./2016plots_50d_season.ipynb)  
     
-* ##[./2016plots_5d.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio/raw/tip/notebooks/./2016plots_5d.ipynb)  
+* ##[./2016plots_5d.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/gsgarbi/analysis-giorgio-2/raw/tip/notebooks/./2016plots_5d.ipynb)  
     
-* ##[./2016plots_50d_perdepth.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio/raw/tip/notebooks/./2016plots_50d_perdepth.ipynb)  
+* ##[./2016plots_50d_perdepth.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/gsgarbi/analysis-giorgio-2/raw/tip/notebooks/./2016plots_50d_perdepth.ipynb)  
     
-* ##[./2016plots_100d.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio/raw/tip/notebooks/./2016plots_100d.ipynb)  
+* ##[./2016plots_100d.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/gsgarbi/analysis-giorgio-2/raw/tip/notebooks/./2016plots_100d.ipynb)  
     
-* ##[./2016plots_50d.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio/raw/tip/notebooks/./2016plots_50d.ipynb)  
+* ##[./2016plots_50d.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/gsgarbi/analysis-giorgio-2/raw/tip/notebooks/./2016plots_50d.ipynb)  
     
-* ##[./2016plots_100d_season.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio/raw/tip/notebooks/./2016plots_100d_season.ipynb)  
+* ##[./2016plots_100d_season.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/gsgarbi/analysis-giorgio-2/raw/tip/notebooks/./2016plots_100d_season.ipynb)  
     
 
 ##License
