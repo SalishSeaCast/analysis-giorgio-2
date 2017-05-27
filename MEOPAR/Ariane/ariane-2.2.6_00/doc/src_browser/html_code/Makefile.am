@@ -1,0 +1,4 @@
+##
+BASE_SUBDIRS	= ariane 
+SUBDIRS		= $(BASE_SUBDIRS)
+##
