@@ -1,0 +1,19 @@
+===================================
+== ONLY FOR ARIANE DEVELOPPER(S) ==
+===================================
+
+To create source browser with f90tohtml, 
+you have to :
+
+- install f90tohtml on your computer (http://code.google.com/p/f90tohtml/)
+- add f90tohtml executable in your PATH
+- modify some directories information in ariane_prepare.pl
+- submit ariane_prepare.pl (a ariane_ls directory is created)
+- submit f90tohtml ariane.f2h
+
+Now you can browse the ariane source code with your favorite Browser
+(Nicolas.Grima@univ-brest.fr - 15/10/2008)
+
+----------------------------------------------------------------------
+more information:
+http://code.google.com/p/f90tohtml/
