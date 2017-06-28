@@ -5,28 +5,16 @@
 
 import datetime as dt
 import os, sys
-import netCDF4 as nc
-import matplotlib as mpl
 import numpy as np
-import numpy.ma as ma
-from scipy.spatial import distance
-import matplotlib
-from matplotlib import pyplot as plt
-from matplotlib.patches import Ellipse
-from matplotlib import cm
-import matplotlib.colors as mpl_colors
-from matplotlib import rc
-from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 
-from salishsea_tools import geo_tools, viz_tools
 
 RAWDIR = "/ocean/gsgarbi/analysis-giorgio/time_series/results2/2016+jan2017/"
     
 OUTPUTDIR = "/ocean/gsgarbi/selected_days/"
 
 
-for nday in (50,100):
+for nday in range(1,101):
 
     # <b> Parameters </b>
     
@@ -34,8 +22,6 @@ for nday in (50,100):
     
     #Parameters
     
-    cmap = plt.get_cmap('nipy_spectral')
-    cmap.set_bad('burlywood')
     
     H = 24 #One day in hours
     
@@ -59,7 +45,7 @@ for nday in (50,100):
     
     dirs = sorted(dirs)
     
-    dirs = dirs[:12]
+    print (dirs)
     
     position = nday * pph * H # d * num/h * h/d = num
     
@@ -104,11 +90,11 @@ for nday in (50,100):
     
     # In[12]:
     
-    for mon_file in ("/20170101_20170131_120d",):
+    for mon_file in dirs:
         mon = get_pts(mon_file)
         print ("got points for {}".format(mon_file))
         np.array(mon).dump(open(OUTPUTDIR + mon_file[:17] + "_{}d.npy".format(nday), 'wb'))
-        print ("saved points for {} \n".format(mon_file))
+        print ("saved points for {} \n with nday = {}".format(mon_file, nday))
     
 
 
