@@ -12,11 +12,11 @@ Descriptions below the links are from the first cell of the notebooks
     
 * ##[./2016plots_perdepth_base.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./2016plots_perdepth_base.ipynb)  
     
-* ##[./Untitled.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./Untitled.ipynb)  
-    
 * ##[./2016plots_alldayslessthan-fixeddate.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./2016plots_alldayslessthan-fixeddate.ipynb)  
     
 * ##[./2016plots_alldayslessthan.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./2016plots_alldayslessthan.ipynb)  
+    
+* ##[./Winds.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./Winds.ipynb)  
     
 * ##[./2016plots_season_base.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./2016plots_season_base.ipynb)  
     
