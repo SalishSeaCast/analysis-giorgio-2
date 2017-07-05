@@ -14,6 +14,10 @@ Descriptions below the links are from the first cell of the notebooks
     
 * ##[./2016plots_alldayslessthan-fixeddate.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./2016plots_alldayslessthan-fixeddate.ipynb)  
     
+* ##[./case_study.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study.ipynb)  
+    
+* ##[./case_study-final.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-final.ipynb)  
+    
 * ##[./2016plots_alldayslessthan.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./2016plots_alldayslessthan.ipynb)  
     
 * ##[./Winds.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./Winds.ipynb)  
