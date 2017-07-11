@@ -6,15 +6,17 @@ Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
 ## 
+* ##[./case_study-final-Copy1.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-final-Copy1.ipynb)  
+    
 * ##[./vertical_distributions.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./vertical_distributions.ipynb)  
+    
+* ##[./case_study-final-Copy2.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-final-Copy2.ipynb)  
     
 * ##[./area_counts.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./area_counts.ipynb)  
     
 * ##[./2016plots_perdepth_base.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./2016plots_perdepth_base.ipynb)  
     
 * ##[./2016plots_alldayslessthan-fixeddate.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./2016plots_alldayslessthan-fixeddate.ipynb)  
-    
-* ##[./case_study.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study.ipynb)  
     
 * ##[./case_study-final.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-final.ipynb)  
     

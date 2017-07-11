@@ -31,3 +31,5 @@ mesh_mask_downbyone2.nc
 netcdf-c-4.4.1.1.tar
 ops_y2014m11d18.nc
 
+ariane_raw/**
+
