@@ -36,6 +36,8 @@ Descriptions below the links are from the first cell of the notebooks
     
 * ##[./sep_fig_area_counts.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./sep_fig_area_counts.ipynb)  
     
+* ##[./case_study-time_close_aug3.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-time_close_aug3.ipynb)  
+    
 * ##[./case_study-time_cb.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-time_cb.ipynb)  
     
 ## thalweg
