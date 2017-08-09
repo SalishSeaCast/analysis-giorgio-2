@@ -7,7 +7,7 @@ def handler(signum, frame):
     raise OSError
 
 
-def check_error(arianedir, resultsdir):
+def run_ariane(arianedir, resultsdir):
     """This function checks for horizontal and vertical eddies, which are errors that Ariane misses
     It does not catch Ariane internal errors
     It takes as arguments two directory paths and returns a (Boolean, text file, string)"""

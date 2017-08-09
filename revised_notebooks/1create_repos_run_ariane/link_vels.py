@@ -1,6 +1,6 @@
 import os
-
 import datetime as dt
+import shutil
 
 months = ['', 'jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec']
 
@@ -39,9 +39,6 @@ def add0 (j,n):
         
     return j
 
-
-# In[36]:
-
 def fd(date):
     dd = {
     "day": sadd0(date.day),
@@ -53,19 +50,16 @@ def fd(date):
     return dd
 
 
-# In[39]:
-
-def linkfiles (vel, n, date, directory):
+def linkfiles (vel, n, date, directory, data_source = 'nowcast'):
     
-
     for i in range(1, n+1):
 
         f = fd(date)
 
         #soruce
-        source = (f["day"], f["smonth"], f["month"], f["day"], f["month"], f["day"], vel, f["year2"], f["year"] )
+        source = (f["day"], f["smonth"], f["month"], f["day"], f["month"], f["day"], vel, f["year2"], f["year"], data_source )
 
-        src = "/results/SalishSea/hindcast/{0}{1}{7}/SalishSea_1h_{8}{2}{3}_{8}{4}{5}_grid_{6}.nc".format(*source)
+        src = "/results/SalishSea/{9}/{0}{1}{7}/SalishSea_1h_{8}{2}{3}_{8}{4}{5}_grid_{6}.nc".format(*source)
         
         
         #destination
@@ -73,24 +67,10 @@ def linkfiles (vel, n, date, directory):
         dst = directory + "/SalishSea_{}_grid_{}.nc".format(fi, vel)
 
 
-        if os.path.exists(dst):
-            os.remove(dst)
+
 
         os.symlink(src, dst)
 
         date = date + dt.timedelta(hours = 24)
-
-
-# In[40]:
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
 
 

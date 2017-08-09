@@ -1,17 +1,9 @@
-"""Creates reposities where results and basic infomartion will be stored"""
-# In[1]:
-
 import os
-
-
 import datetime as dt
+import shutil
 
 months = ['', 'jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec']
 
-
-
-# In[2]:
-    
 
 import errno
 
@@ -22,19 +14,27 @@ def make_sure_path_exists(path):
         if exception.errno != errno.EEXIST:
             raise
 
-def createdirs (first_date, tlength, runlength, basedir = "/ocean/gsgarbi/hindcast/"):
+def createdirs (first_date, tlength, runlength, basedir = "/ocean/gsgarbi/"):
+    """
+    Creates reposities where results and basic infomartion will be stored
+    """
 
     last_date = first_date + dt.timedelta(hours = 24*runlength)
   
 
     fdate = '{:%Y%m%d}'.format(first_date) + "_" + '{:%Y%m%d}'.format(last_date) + "_" + "{}d".format(tlength)
 
+
     arianedir = basedir + "arianefiles/" + fdate
     resultsdir = basedir + "results/" + fdate
+    
+    for directory in (arianedir, resultsdir):
+    
+        if os.path.exists(directory) and directory != '/ocean/gsgarbi' and directory != '/ocean/gsgarbi/revised_notebooks':
+            print ("will delete old version at {}".format(directory))
+            shutil.rmtree(directory) #CAUTION HERE!
 
-    make_sure_path_exists(arianedir)
-
-    make_sure_path_exists(resultsdir)
+        os.makedirs(directory)
 
     
     return {'arianedir': arianedir, 'resultsdir': resultsdir}
