@@ -43,9 +43,9 @@ if __name__ == "__main__":
 
 
 #    
-    pre_run (
-                 first_day = first_day, 
-                 last_day = last_day, 
-                 trajectory_length = trajectory_length 
-                 )
-    
+#    pre_run (
+#                 first_day = first_day, 
+#                 last_day = last_day, 
+#                 trajectory_length = trajectory_length 
+#                 )
+#    

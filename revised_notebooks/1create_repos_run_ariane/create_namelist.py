@@ -87,7 +87,7 @@ def namelist(directory, n, tl, lmt = None):
 /
 
 &MESH
-        dir_mesh ='/ocean/eolson/MEOPAR/NEMO-forcing/grid',
+        dir_mesh ='/ocean/gsgarbi/',
         fn_mesh ='mesh_mask_downbyone2.nc',
         nc_var_xx_tt ='glamt',
         nc_var_xx_uu ='glamu',
@@ -111,26 +111,5 @@ def namelist(directory, n, tl, lmt = None):
     
     with open(directory + "/namelist", 'w') as file:
         file.write(txt)
-    
-
-
-
-
-
-# In[149]:
-
-
-
-
-# In[150]:
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
 
 

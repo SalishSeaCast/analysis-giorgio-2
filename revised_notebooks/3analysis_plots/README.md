@@ -22,11 +22,19 @@ Descriptions below the links are from the first cell of the notebooks
     
 * ##[./case_study-time_close.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-time_close.ipynb)  
     
+* ##[./Untitled2.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./Untitled2.ipynb)  
+    
+* ##[./case_study-time_close_aug3_criteria48h.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-time_close_aug3_criteria48h.ipynb)  
+    
+* ##[./case_study_time_close_aug3_improving_code.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study_time_close_aug3_improving_code.ipynb)  
+    
 * ##[./area_counts-Copy1.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./area_counts-Copy1.ipynb)  
     
 * ##[./Untitled1.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./Untitled1.ipynb)  
     
 * ##[./case_study-final.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-final.ipynb)  
+    
+* ##[./Winds-histogram.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./Winds-histogram.ipynb)  
     
 * ##[./2016plots_alldayslessthan.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./2016plots_alldayslessthan.ipynb)  
     
