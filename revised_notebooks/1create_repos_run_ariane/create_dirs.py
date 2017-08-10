@@ -18,7 +18,9 @@ def createdirs (first_date, tlength, runlength, basedir = "/ocean/gsgarbi/"):
     """
     Creates reposities where results and basic infomartion will be stored
     """
-
+    
+    runlength = runlength - 1
+    
     last_date = first_date + dt.timedelta(hours = 24*runlength)
   
 
