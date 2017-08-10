@@ -10,7 +10,7 @@ from run_ariane import run_ariane
 
 
     
-def pre_run (first_day, last_day, trajectory_length):
+def pre_run (first_day, last_day, trajectory_length, ds):
     '''
     Prepares the run and starts the run
     Arguments: 
@@ -22,17 +22,23 @@ def pre_run (first_day, last_day, trajectory_length):
 
 
     
-    run_length = (last_day - first_day).days
+    run_length = (last_day - first_day).days + 1
 
     #starts the runs
     start_run(first_day = first_day, 
               last_day = last_day, 
               run_length = run_length, 
-              trajectory_length = trajectory_length)
+              trajectory_length = trajectory_length,
+              ds = ds)
     
     
 
-def start_run(first_day, last_day, trajectory_length, run_length):
+def start_run(
+        first_day, 
+        last_day, 
+        trajectory_length, 
+        run_length, 
+        ds):
     '''
     starts the run and collects the results
     '''
@@ -48,11 +54,11 @@ def start_run(first_day, last_day, trajectory_length, run_length):
     
     
     #creates initial_positions.txt
-    longinitp(arianedir, run_length)
+    longinitp(arianedir, run_length )
     
     
     #links velocties (.nc files, U, V, W as default)
-    link(trajectory_length + run_length, first_day, arianedir)
+    link(trajectory_length + run_length , first_day, arianedir, ds)
 
 
     #copies basic files

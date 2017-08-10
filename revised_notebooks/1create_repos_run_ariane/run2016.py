@@ -22,7 +22,7 @@ example: if one runs it on Feb 20 2019, the code expects the velocity data to fi
 
 if __name__ == "__main__":
     
-    for m in range (1, 13):
+    for m in range (6, 9):
     
         DATA_LIMIT = dt.date.today() - relativedelta(days = 2)
     
@@ -47,6 +47,7 @@ if __name__ == "__main__":
         pre_run (
                      first_day = first_day, 
                      last_day = last_day, 
-                     trajectory_length = trajectory_length 
+                     trajectory_length = trajectory_length,
+                     ds = 'nowcast'
                      )
         
