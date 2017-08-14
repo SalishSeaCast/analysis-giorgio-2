@@ -22,7 +22,7 @@ example: if one runs it on Feb 20 2019, the code expects the velocity data to fi
 
 if __name__ == "__main__":
     
-    for m in range (6, 9):
+    for m in range (7, 10):
     
         DATA_LIMIT = dt.date.today() - relativedelta(days = 2)
     

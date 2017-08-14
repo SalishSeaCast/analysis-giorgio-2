@@ -22,8 +22,6 @@ Descriptions below the links are from the first cell of the notebooks
     
 * ##[./case_study-time_close.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-time_close.ipynb)  
     
-* ##[./Winds-histogram_usingpickle.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./Winds-histogram_usingpickle.ipynb)  
-    
 * ##[./Untitled2.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./Untitled2.ipynb)  
     
 * ##[./case_study-time_close_aug3_criteria48h.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-time_close_aug3_criteria48h.ipynb)  
@@ -45,6 +43,8 @@ Descriptions below the links are from the first cell of the notebooks
 * ##[./2016plots_season_base.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./2016plots_season_base.ipynb)  
     
 * ##[./sep_fig_area_counts.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./sep_fig_area_counts.ipynb)  
+    
+* ##[./winds_river_histograms.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./winds_river_histograms.ipynb)  
     
 * ##[./case_study-time_close_aug3.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-time_close_aug3.ipynb)  
     
