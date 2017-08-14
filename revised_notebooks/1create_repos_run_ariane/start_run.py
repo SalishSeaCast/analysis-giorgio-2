@@ -72,7 +72,7 @@ def start_run(
     
     #copies code that originated the run to the results directory
     source = inspect.stack()[2][1]
-    src = source
+    src = '/ocean/gsgarbi/revised_notebooks/1create_repos_run_ariane' + source
     dst = resultsdir + "/source.py"
     copyfile(src, dst)
     
