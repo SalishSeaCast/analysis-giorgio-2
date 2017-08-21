@@ -10,18 +10,25 @@ from run_ariane import run_ariane
 
 
     
-def pre_run (first_day, last_day, trajectory_length, ds):
-    '''
-    Prepares the run and starts the run
-    Arguments: 
-    initial day of the run(dicitonary)
-    last day of the trajectory (dicitonary)
-    trajectory length in days (positive integer)
-    '''
+def pre_run (first_day, last_day, trajectory_length, src, ds):
+
+    """
+    Prepares the run and starts the run (calls start_run)
+
+    :arg first_day: initial day of the run
+    :type to: datetime object
+
+    :arg trajectory_length: trajectory length of each particle in days
+    :type tf: positive integer
+    
+    :arg ds: velocties data source (eg, "nowcast", "hindcast")
+    :type tf: string
+
+
+    :returns: this function does not have a return value
+    """
           
 
-
-    
     run_length = (last_day - first_day).days + 1
 
     #starts the runs
@@ -29,6 +36,7 @@ def pre_run (first_day, last_day, trajectory_length, ds):
               last_day = last_day, 
               run_length = run_length, 
               trajectory_length = trajectory_length,
+              src_code = src,
               ds = ds)
     
     
@@ -37,7 +45,8 @@ def start_run(
         first_day, 
         last_day, 
         trajectory_length, 
-        run_length, 
+        run_length,
+        src_code,
         ds):
     '''
     starts the run and collects the results
@@ -71,8 +80,7 @@ def start_run(
     copyfile(src, dst)
     
     #copies code that originated the run to the results directory
-    source = inspect.stack()[2][1]
-    src = '/ocean/gsgarbi/revised_notebooks/1create_repos_run_ariane' + source
+    src = src_code
     dst = resultsdir + "/source.py"
     copyfile(src, dst)
     
@@ -99,7 +107,7 @@ def start_run(
                 "time_before": time_before, 
                 "time_after" : time_after, 
                 "time_delta" : time_after - time_before, 
-                "source" : source,
+                "source" : src_code,
                 }
     
     run_message = (
@@ -113,9 +121,3 @@ def start_run(
 
     with open(resultsdir + "/run_log.txt", 'w') as file:
         file.write(log)
-
-        
-
-
-
-

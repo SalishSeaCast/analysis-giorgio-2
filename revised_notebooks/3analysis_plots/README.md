@@ -44,7 +44,7 @@ Descriptions below the links are from the first cell of the notebooks
     
 * ##[./sep_fig_area_counts.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./sep_fig_area_counts.ipynb)  
     
-* ##[./winds_river_histograms.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./winds_river_histograms.ipynb)  
+* ##[./winds_river_tides_histograms.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./winds_river_tides_histograms.ipynb)  
     
 * ##[./case_study-time_close_aug3.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis-giorgio-2/raw/tip/revised_notebooks/3analysis_plots/./case_study-time_close_aug3.ipynb)  
     
